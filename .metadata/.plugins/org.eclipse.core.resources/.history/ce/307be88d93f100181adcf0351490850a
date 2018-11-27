@@ -1,0 +1,28 @@
+package io.altar.example;
+
+public class ShowTime {
+
+	ScannerUtils scannerUtils = new ScannerUtils();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ShowTime testes = new ShowTime();
+		testes.teste();
+		
+	}
+	
+	private void teste () {
+		int[] ivas= new int[] {6,13,23};
+		int inputIva = scannerUtils.getValidIntFromScanner("IVA: ", ivas);
+		System.out.println(inputIva);
+		int inputPvp = scannerUtils.getIntFromScanner("PVP: ");
+		System.out.println(inputPvp);
+		int inputDiscount = scannerUtils.getValidIntFromScanner("Discount: ", 100);
+		System.out.println(inputDiscount);
+		
+		Product product = new Product(inputIva, inputPvp, inputDiscount);
+		System.out.println(product.toString());
+	}
+
+}

@@ -1,0 +1,5 @@
+package io.altar.stateMachine.utils;
+
+public class ScannerUtils {
+
+}

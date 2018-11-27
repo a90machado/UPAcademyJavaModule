@@ -1,0 +1,11 @@
+package io.altar.stateMachine.states;
+
+public class MenuInicial implements State{
+
+	@Override
+	public int execute() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}
