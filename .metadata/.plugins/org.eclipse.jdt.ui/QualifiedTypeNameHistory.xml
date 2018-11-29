@@ -12,4 +12,8 @@
 <fullyQualifiedTypeName name="repositorio.AutomovelRepositorio"/>
 <fullyQualifiedTypeName name="entities.Automovel"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="io.altar.stateMachine.utils.ScannerUtils"/>
+<fullyQualifiedTypeName name="io.altar.stateMachine.states.MenuInicial"/>
+<fullyQualifiedTypeName name="io.altar.stateMachine.states.State"/>
+<fullyQualifiedTypeName name="io.altar.stateMachine.states.MenuListarProdutos"/>
 </qualifiedTypeNameHistroy>
